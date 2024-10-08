@@ -1,0 +1,18 @@
+﻿<Application x:Class="SpeicherApp1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SpeicherApp1"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ControlTemplate x:Key="ct1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="SpeicherApp" FontSize="20" Background="LightBlue" Grid.Column="0"/>
+                <Label Content="Logo"  FontSize="20" HorizontalAlignment="Right" Background="LightBlue" Grid.Column="1"/>
+            </Grid>
+        </ControlTemplate>
+    </Application.Resources>
+</Application>
